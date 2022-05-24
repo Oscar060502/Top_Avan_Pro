@@ -67,7 +67,7 @@ const Formulario = ({setPacientes, pacientes, paciente, setPaciente}) => {
         
 
     return (
-    <div className='bg-[#967aa1] ml-10 mr-10 h-fit sm:mr-5 sm:ml-10 md:w-1/2 lg:w-2/5 rounded-md'>
+    <div className='ml-10 mr-10 h-fit sm:mr-10 sm:ml-10 md:mr-5 md:ml-10 md:w-1/2 lg:w-2/5 rounded-md'>
         <h2 className='bg-[#967aa1] text-3xl text-center rounded-md'>Seguimiento de los pacientes</h2>
         {error && <p className="bg-[#ad0b2e] rounded-md sm:text-center sm:1 p-4 m-5">Por favor rellene todos los campos</p>}
         <form className='p-10' onSubmit={validarFormulario}>
