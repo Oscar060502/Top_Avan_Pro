@@ -15,8 +15,8 @@ const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
           <p className='text-gray-500 font-bold' >Sintomas: <span className='font-normal normal-case'>{paciente.sint}</span></p>
           <p className='text-gray-500 font-bold' >Fecha: <span className='font-normal normal-case'>{paciente.fecha}</span></p>
           <div className="flex justify-evenly gap-4 mt-4">
-            <input type="submit" value="Editar" className="bg-[#c58dba] rounded-lg w-full hover:cursor-pointer hover:bg-[#964a87] p-2" onClick={()=> setPaciente(paciente)} />
-            <input type="submit" value="Eliminar" className="bg-rose-400 rounded-lg w-full hover:cursor-pointer hover:bg-rose-700 p-2 " onClick={handleEliminar} />
+            <input type="submit" value="Editar" className="bg-[#c58dba] rounded-lg w-full hover:cursor-pointer hover:bg-[#964a87] p-2 font-bold" onClick={()=> setPaciente(paciente)} />
+            <input type="submit" value="Eliminar" className="bg-[#ce64b9] rounded-lg w-full hover:cursor-pointer hover:bg-[#914481] p-2 font-bold" onClick={handleEliminar} />
           </div>
       </div>
   )
